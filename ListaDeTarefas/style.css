@@ -1,0 +1,63 @@
+/* Reset de estilos para garantir uma base consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Estilos para o cabeçalho */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos para o input e botão */
+input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    margin-left: 150px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+#taskList {
+    list-style-type: none;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 10px; 
+    
+}
+
+.taskItem {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.taskItem:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
